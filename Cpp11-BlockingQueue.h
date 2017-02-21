@@ -61,7 +61,7 @@ private:
   std::queue<T> q_;
   std::mutex mtx_;
   std::condition_variable cv_;
-  std::string myname;
+  std::string myname = "anne";
 };
 //----< move constructor >---------------------------------------------
 
